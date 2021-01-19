@@ -14,7 +14,6 @@ height: auto;
 
 }
 
-
 .red {
     max-width:90%;
     width: 7.5%;
@@ -36,35 +35,5 @@ height: auto;
 
 
 .img-hover-zoom:hover img {
-  transform: scale(1.25);
-}
-
-.img-hover-zoom2 {
-  height: 60%;
-  overflow: visible;
-}
-
-
-.img-hover-zoom2 img {
-  transition: transform .25s ease;
-}
-
-
-.img-hover-zoom2:hover img {
-  transform: scale(1.25);
-}
-
-.img-hover-zoom3 {
-  height: 60%;
-  overflow: visible;
-}
-
-
-.img-hover-zoom3 img {
-  transition: transform .25s ease;
-}
-
-
-.img-hover-zoom3:hover img {
   transform: scale(1.25);
 }
