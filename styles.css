@@ -17,17 +17,17 @@ body {
 }
 
 .header{
-width: 26.6%;
+width: 20%;
 height: auto;
 
 }
 
 .red {
     max-width:90%;
-    width: 15%;
+    width: 10%;
     height:auto;
-    padding: 2%;
-    margin-top: 2.5%;
+    padding: 1%;
+    margin-top: 1.5%;
     border-radius: 50%;
 }
 
