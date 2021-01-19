@@ -1,11 +1,19 @@
+
 body {
   margin-top: 3%;
   color: white;
   background-image: url(bg.jpg);
+  background-position: center;
   background-color: #4b2759;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0;;
+  font-family: coolvetica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 3vw;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .header{
