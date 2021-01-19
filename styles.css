@@ -1,0 +1,50 @@
+body {
+  margin-top: 2%;
+  color: white;
+  background-color: #4b2759;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;}
+
+img {
+    max-width:90%;
+    width: 15%;
+    height:auto;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.left-margin img {
+  margin-left: 0%;
+}
+
+
+.img-hover-zoom {
+  height: 60%;
+  overflow: visible;
+}
+
+
+.img-hover-zoom img {
+  transition: transform .25s ease;
+}
+
+
+.img-hover-zoom:hover img {
+  transform: scale(1.25);
+}
+
+.img-hover-zoom2 {
+  height: 60%;
+  overflow: visible;
+}
+
+
+.img-hover-zoom2 img {
+  transition: transform .25s ease;
+}
+
+
+.img-hover-zoom2:hover img {
+  transform: scale(1.25);
+}
