@@ -2,10 +2,3 @@
 width: 1152px;
 height: 648px;
 }
-
-@media screen and (max-width: 1080px) {
-  .video {
-    width: 640px;
-    height: 360px; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
