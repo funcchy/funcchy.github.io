@@ -1,6 +1,6 @@
 
 body {
-  margin-top: 12.5%;
+  margin-top: 5%;
   color: white;
   background-image: url(bg.jpg);
   background-position: center;
@@ -24,12 +24,14 @@ height: auto;
 
 .red {
     max-width:90%;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 10%;
     height:auto;
     padding: 1%;
     margin-bottom: 0.5%;
     border-radius: 50%;
+    float: left;
+    margin-left: 7.5%;
 }
 
 .container {
@@ -67,4 +69,32 @@ height: auto;
   }
   .red {
     width: 20%;
+  }
+
+  @keyframes discord {
+  	0% {height:70px; width:250px;}
+  	 100% {height:500px;width:350px;}
+  }
+  @keyframes discord-c {
+  	0% {height:500px;width:350px;}
+      100% {height:70px; width:250px;}
+  }
+  .discord {
+  	animation-name: discord-c;
+  	animation-duration: 2s;
+  	animation-play-state: pause;
+  	float:left;
+      height:70px;
+  	width:250px;
+
+
+  }
+
+  .discord:hover {
+  	height:500px;
+  	width:350px;
+  	float:right;
+  	animation-name: discord;
+  	animation-duration: 2s;
+  	animation-play-state: pause;
   }
