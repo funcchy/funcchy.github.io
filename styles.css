@@ -42,7 +42,6 @@ height: auto;
   display: inline;
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   width: 50%
   max-width: 40%;
